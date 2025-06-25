@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   
+  <meta charset="UTF-8" />
+   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mis Postres Preferidos</title>
+   <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+   
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+   
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   
+  <link    
+    href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet" />
+   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <header class="animate__animated animate__backInRight">
+        <h1 class="animate__animated animate__rubberBand">Mis postres preferidos</h1>
+    </header>
+    
+  <nav aria-label="Recetas de postres" class="animate__animated animate__backInRight">
+    <ul>
+      <li><a href="https://elgourmet.com/recetas/volcan-de-chocolate-3/" target="_blank"
+          rel="noopener noreferrer">Receta Volcán</a></li>
+      <li><a href="https://www.recetasnestle.com.ar/recetas/cheesecake" target="_blank" rel="noopener noreferrer">Receta
+          de cheesecake</a></li>
+      <li><a href="https://elgourmet.com/recetas/devil-s-food-cake/" target="_blank" rel="noopener noreferrer">Devil
+          Cake</a></li>
+      <li><a href=" https://elgourmet.com/recetas/red-velvet-cake-2/" target="_blank" rel="noopener noreferrer">Receta
+          de Red Veldet</a></li>
+      <li><a href="https://chocolateaguila.com/Receta/brownie-clasico_134" target="_blank"
+          rel="noopener noreferrer">Receta Brownie</a></li>
+      <li><a href="https://elgourmet.com/recetas/fosforitos-de-hojaldre/" target="_blank"
+          rel="noopener noreferrer">Receta de Fosforitos</a></li>
+    </ul>
+  </nav>
+
+    <main>
+        <section aria-labelledby="recetas-dulces" class="parent">
+            
+            <!-- Header principal que ocupa toda la fila superior -->
+            <!-- Reemplaza todo el contenido del div1 con este carrusel -->
+<div class="div1 animate__animated animate__fadeInUp">
+    <div id="carouselPostres" class="carousel slide carousel-container" data-bs-ride="carousel" data-bs-interval="4000">
+        <!-- Indicadores -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselPostres" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselPostres" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselPostres" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carouselPostres" data-bs-slide-to="3"></button>
+        </div>
+
+        <!-- Contenido del carrusel -->
+        <div class="carousel-inner">
+            <!-- Slide 1 - CAMBIA ESTA URL POR TU IMAGEN -->
+            <div class="carousel-item active">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_868154-MLA85339426694_062025-O.webp" 
+                     class="d-block w-100" alt="Postre destacado 1">
+                <div class="carousel-caption d-md-block">
+                    <h5>Kit de reposteria</h5>
+                    <p>Prepara tus postres a gusto</p>
+                </div>
+            </div>
+
+            <!-- Slide 2 - CAMBIA ESTA URL POR TU IMAGEN -->
+            <div class="carousel-item">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_846783-MLU70064876155_062023-O.webp" 
+                     class="d-block w-100" alt="Postre destacado 2">
+                <div class="carousel-caption d-md-block">
+                    <h5>Batidora</h5>
+                    <p>Mezcla todos tus ingredientes</p>
+                </div>
+            </div>
+
+            <!-- Slide 3 - CAMBIA ESTA URL POR TU IMAGEN -->
+            <div class="carousel-item">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_672842-MLA82961151492_032025-O.webp" 
+                     class="d-block w-100" alt="Postre destacado 3">
+                <div class="carousel-caption d-md-block">
+                    <h5>Kit de moldes</h5>
+                    <p>Los moldes mas baratos calidad-precio</p>
+                </div>
+            </div>
+
+            <!-- Slide 4 - CAMBIA ESTA URL POR TU IMAGEN -->
+            <div class="carousel-item">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_767796-MLA79728445173_102024-O.webp" 
+                     class="d-block w-100" alt="Postre destacado 4">
+                <div class="carousel-caption d-md-block">
+                    <h5>Batidoras</h5>
+                    <p>Prepara tus batidos preferidos</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controles -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPostres" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselPostres" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+</div>
+
+<!-- NO OLVIDES AGREGAR EL SCRIPT DE BOOTSTRAP AL FINAL DE TU HTML, ANTES DE </body> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+            <!-- Volcán de chocolate -->
+            <div class="div2 animate__animated animate__fadeInUp">
+                <input type="checkbox" id="toggle-volcan" class="receta-toggle">
+                <label for="toggle-volcan" class="receta-label">
+                    <h3>Volcán de chocolate</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD10YROJ4KhyRoo6h5zFSbjbGfeMcLj28z8Q&s"
+                        alt="Volcán de chocolate" />
+                </label>
+                <div class="receta-content">
+                    <article class="receta receta-volcan">
+                        <h4>Preparación de la receta</h4>
+                        <ol>
+                            <li>Derretimos el chocolate con la manteca en el microondas, controlando que no se queme.</li>
+                            <li>Batimos los huevos con el azúcar hasta que quede espumoso. Luego incorporamos el chocolate y
+                                mezclamos.</li>
+                            <li>Tamizamos la harina y la añadimos al bowl. Mezclamos bien.</li>
+                            <li>Enmantecamos moldes, espolvoreamos con cacao, llenamos ¾ partes y congelamos.</li>
+                            <li>Precalentamos el horno a 180ºC.</li>
+                            <li>Horneamos durante 12 minutos. Se inflará el centro.</li>
+                            <li>Servimos con helado o frutas.</li>
+                        </ol>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Brownie -->
+            <div class="div3 animate__animated animate__fadeInUp">
+                <input type="checkbox" id="toggle-brownie" class="receta-toggle">
+                <label for="toggle-brownie" class="receta-label">
+                    <h3>Brownie</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnRI4TFjO_TogxAvWsPKDssj_l3hPYZzHRvw&s"
+                        alt="Brownie" />
+                </label>
+                <div class="receta-content">
+                    <article class="receta receta-brownie">
+                        <h4>Preparación de la receta</h4>
+                        <ol>
+                            <li>Derretir el chocolate con manteca.</li>
+                            <li>Batir los huevos con azúcar y agregar el chocolate derretido.</li>
+                            <li>Agregar la harina tamizada.</li>
+                            <li>Enmantecar moldes, espolvorear con cacao, llenar ¾ y congelar.</li>
+                            <li>Precalentar el horno a 180ºC.</li>
+                            <li>Hornear durante 12 minutos sin ventilador.</li>
+                            <li>Servir con helado o frutas.</li>
+                        </ol>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Fosforitos Caseros -->
+            <div class="div4 animate__animated animate__fadeInUp">
+                <input type="checkbox" id="toggle-fosforitos" class="receta-toggle">
+                <label for="toggle-fosforitos" class="receta-label">
+                    <h3>Fosforitos Caseros</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgqx99AssVSbZfiDUW9tDiQO0cql4goiy6cQ&s"
+                        alt="Fosforitos">
+                </label>
+                <div class="receta-content">
+                    <article class="receta receta-fosforitos-caseros">
+                        <h4>Preparación del Empaste</h4>
+                        <ol>
+                            <li>Trabajar la manteca con la harina sin que se ablande demasiado, dar forma rectangular.</li>
+                            <li>Envolver el empaste en film y guardar en la heladera.</li>
+                            <li>Estirar el amasijo en forma rectangular.</li>
+                            <li>Disponer el empaste en el centro y encerrarlo con la masa.</li>
+                            <li>Dar 2 vueltas simples y 2 dobles, con reposo de 30 min en la heladera entre cada una.</li>
+                        </ol>
+                        <h4>Preparación de los Fosforitos</h4>
+                        <ol>
+                            <li>Estirar el hojaldre de 3 mm de espesor.</li>
+                            <li>Pinchar varias veces con un tenedor.</li>
+                            <li>Untar con glase real toda la superficie de la masa.</li>
+                            <li>Cortar pequeños rectángulos con un cuchillo mojado en agua caliente.</li>
+                            <li>Estibar en placas levemente enmantecadas.</li>
+                            <li>Hornear a 200 °C por 20 minutos.</li>
+                            <li>Dejar enfriar.</li>
+                            <li>Cortar los fosforitos por el medio.</li>
+                            <li>Untar con queso crema y rellenar con jamón crudo y tomate.</li>
+                        </ol>
+                        <h4>Glase Real</h4>
+                        <ol>
+                            <li>Batir la clara con el azúcar impalpable y el jugo de limón.</li>
+                            <li>Mezclar hasta que la preparación esté espesa y blanca.</li>
+                            <li>Reservar para su uso.</li>
+                        </ol>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Devil Cake -->
+            <div class="div5 animate__animated animate__fadeInUp">
+                <input type="checkbox" id="toggle-devil-cake" class="receta-toggle">
+                <label for="toggle-devil-cake" class="receta-label">
+                    <h3>Devil Cake</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeXZmIrff1ZQtHd1V3D91UtkjzwkDBFup5QA&s"
+                        alt="Devil Cake">
+                </label>
+                <div class="receta-content">
+                    <article class="receta receta-devil-cake">
+                        <h4>Preparación del Bizcocho</h4>
+                        <ol>
+                            <li>Batir en batidora con globo huevos y azúcar hasta espumar.</li>
+                            <li>Agregar esencia de vainilla, manteca fundida y trabajar suavemente.</li>
+                            <li>Mezclar cacao y agua en un bowl hasta formar una crema de chocolate.</li>
+                            <li>Unir las dos preparaciones hasta homogeneizar.</li>
+                            <li>Añadir la harina tamizada e integrar.</li>
+                            <li>Repartir en 3 moldes de 20 cm enmantecados y con papel manteca en los laterales.</li>
+                            <li>Hornear a 180 °C por 20 minutos.</li>
+                        </ol>
+                        <h4>Ganache</h4>
+                        <ol>
+                            <li>Calentar crema de leche, esencia de vainilla y glucosa hasta punto de hervor.</li>
+                            <li>Volcar sobre chocolate semiamargo rallado y mezclar hasta fundir por completo.</li>
+                        </ol>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Publicidades columna derecha -->
+            <div class="div6 animate__animated animate__fadeInUp">
+                <aside aria-label="Publicidad">
+                    <p style="color: white; text-align: center; margin-bottom: 10px;">Moldes para postres</p>
+                    <img src="https://th.bing.com/th/id/OIP.0h09COLt7vST2eon4AGh4QHaE7?rs=1&pid=ImgDetMain"
+                        alt="Publicidad moldes para postres" class="publicidad-img" />
+                </aside>
+            </div>
+
+            <div class="div7 animate__animated animate__fadeInUp">
+                <aside aria-label="Publicidad">
+                    <p style="color: white; text-align: center; margin-bottom: 10px;">Batidoras profesionales</p>
+                    <img src="https://kaidarg.vtexassets.com/arquivos/ids/155634-800-800?v=638388807719530000&width=800&height=800&aspect=true"
+                        alt="Publicidad batidoras profesionales" class="publicidad-img" />
+                </aside>
+            </div>
+
+            <div class="div8 animate__animated animate__fadeInUp">
+                <aside aria-label="Publicidad">
+                    <p style="color: white; text-align: center; margin-bottom: 10px;">Utensilios de repostería</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhkVG3-Yyxvp7RzNOecli05VyLOiGMlIlvLA&s"
+                        alt="Publicidad utensilios de repostería" class="publicidad-img" />
+                </aside>
+            </div>
+
+            <div class="div9 animate__animated animate__fadeInUp">
+                <aside aria-label="Publicidad">
+                    <p style="color: white; text-align: center; margin-bottom: 10px;">Ingredientes premium</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpFqNzB8zSBa8wBe8s9w1aKJPr3ZKJ1nv6Rw&s"
+                        alt="Publicidad ingredientes premium" class="publicidad-img" />
+                </aside>
+            </div>
+
+            <!-- Nuevos divs agregados -->
+            <div class="div10 animate__animated animate__fadeInUp">
+                <input type="checkbox" id="toggle-torta-roja" class="receta-toggle">
+                <label for="toggle-torta-roja" class="receta-label">
+                    <h3>Torta Roja con Glaseado de Queso</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi6ki3F1VB9dfUgo10CF3_XV_h0i3XaA_z0g&s"
+                        alt="Red Velvet">
+                </label>
+                <div class="receta-content">
+                    <article class="receta receta-torta-roja">
+                        <h4>Preparación de la receta</h4>
+                        <ol>
+                            <li>Precalentar el horno a 180 °C.</li>
+                            <li>Enmantecar dos moldes cuadrados de 20 cm y forrar con papel manteca cubriendo también los lados.</li>
+                            <li>Batir la mantequilla con batidora eléctrica hasta que esté suave.</li>
+                            <li>Añadir el azúcar y batir hasta lograr una mezcla suave y esponjosa.</li>
+                            <li>Agregar los huevos de a uno, batiendo bien tras cada adición.</li>
+                            <li>Incorporar la esencia de vainilla.</li>
+                            <li>En otro bol, tamizar la harina, cacao, bicarbonato, polvo de hornear y sal.</li>
+                            <li>Agregar los ingredientes secos alternando con el suero de leche, comenzando y terminando con la harina.</li>
+                            <li>Mezclar el vinagre blanco con el colorante y añadirlo a la masa batiendo a velocidad baja.</li>
+                            <li>Verter la mezcla en los moldes y nivelar la superficie.</li>
+                            <li>Hornear durante 35 minutos o hasta que al insertar un palillo salga limpio.</li>
+                            <li>Enfriar los bizcochos en sus moldes 20 minutos antes de desmoldar completamente.</li>
+                        </ol>
+                        <h4>Preparación del glaseado</h4>
+                        <ol>
+                            <li>Batir la mantequilla hasta que quede esponjosa.</li>
+                            <li>Agregar el queso crema y batir hasta integrar bien.</li>
+                            <li>Incorporar el azúcar impalpable en dos tandas, comenzando en baja velocidad y aumentando progresivamente.</li>
+                            <li>Añadir la esencia de vainilla.</li>
+                        </ol>
+                    </article>
+                </div>
+            </div>
+
+            <div class="div11 animate__animated animate__fadeInUp">
+                <input type="checkbox" id="toggle-cheesecake" class="receta-toggle">
+                <label for="toggle-cheesecake" class="receta-label">
+                    <h3>Cheesecake Clásico</h3>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-smAHtMuW4I0UR5JzeCrSl0Pv_uIN9vqhBQ&s"
+                        alt="Cheesecake">
+                </label>
+                <div class="receta-content">
+                    <article class="receta receta-cheesecake">
+                        <h4>Preparación de la receta</h4>
+                        <ol>
+                            <li>Procesar las galletitas con la manteca blanda.</li>
+                            <li>Tapizar la base y los bordes de un molde desmontable de 22 cm de diámetro.</li>
+                            <li>Cocinar la base en horno precalentado a 160 °C durante 10 minutos.</li>
+                            <li>Retirar del horno y dejar enfriar.</li>
+                            <li>Para el relleno, batir el queso crema durante un minuto.</li>
+                            <li>Añadir el jugo de limón, los huevos, la leche condensada y la pizca de sal.</li>
+                            <li>Colocar el relleno dentro del molde.</li>
+                            <li>Volver a cocinar en horno a 140 °C durante 60 minutos.</li>
+                            <li>Para saber si está listo, mover el molde suavemente dentro del horno: si el centro tiembla, apagar el horno y dejar 30 minutos más dentro con la puerta cerrada.</li>
+                            <li>Retirar y dejar enfriar a temperatura ambiente.</li>
+                            <li>Llevar a la heladera para que termine de asentarse.</li>
+                            <li>Servir acompañado de salsa de frambuesa y frutos rojos.</li>
+                        </ol>
+                    </article>
+                </div>
+            </div>
+
+            <div class="div12 animate__animated animate__fadeInUp">
+                <aside aria-label="Publicidad">
+                    <p style="color: white; text-align: center; margin-bottom: 10px;">Cursos de repostería</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFtJ9WxS6vZHqIp3QTjKR4hNfaZ8z3YcGnPQ&s"
+                        alt="Publicidad cursos de repostería" class="publicidad-img" />
+                </aside>
+            </div>
+
+            <div class="div13 animate__animated animate__fadeInUp">
+                <aside aria-label="Publicidad">
+                    <p style="color: white; text-align: center; margin-bottom: 10px;">Libros de recetas</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5rJ9kL4xW8YhQz3RjNaKJPr3ZKJ1nv6Rw8s&s"
+                        alt="Publicidad libros de recetas" class="publicidad-img" />
+                </aside>
+            </div>
+
+        </section>
+    </main>
+    
+    <footer>
+        <p>Seguinos en redes sociales</p>
+        <ul>
+            <li><a href="#" aria-label="Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="Twitter">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
